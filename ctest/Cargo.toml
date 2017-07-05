@@ -1,0 +1,11 @@
+[package]
+name = "winapitest"
+version = "0.1.0"
+authors = ["Alex Crichton <alex@alexcrichton.com>"]
+
+[dependencies]
+winapi = { path = "..", features = ["everything"] }
+
+[build-dependencies]
+ctest = { git = 'https://github.com/alexcrichton/ctest' }
+toml = "0.4"

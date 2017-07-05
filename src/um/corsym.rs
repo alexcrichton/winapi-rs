@@ -82,4 +82,5 @@ interface ISymUnmanagedBinder2(ISymUnmanagedBinder2Vtbl):
 }
 );
 #[derive(Clone, Copy)]
+#[repr(C)]
 pub struct ISymUnmanagedReader;
